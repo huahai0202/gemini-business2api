@@ -129,7 +129,7 @@ class GeminiAutomation:
         if chromium_path:
             options.set_browser_path(chromium_path)
 
-        options.set_argument("--incognito")
+        # options.set_argument("--incognito")
         options.set_argument("--no-sandbox")
         options.set_argument("--disable-dev-shm-usage")
         options.set_argument("--disable-setuid-sandbox")
