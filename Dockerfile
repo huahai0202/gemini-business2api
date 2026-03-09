@@ -54,8 +54,6 @@ RUN mkdir -p ./data
 COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
 
-# 声明数据卷
-VOLUME ["/app/data"]
 
 # 声明端口
 EXPOSE 7860
